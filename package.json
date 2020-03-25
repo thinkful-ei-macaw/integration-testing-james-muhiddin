@@ -1,0 +1,25 @@
+{
+  "name": "playstore-mj",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "cors": "^2.8.5",
+    "mocha": "^7.1.1",
+    "nodemon": "^2.0.2",
+    "supertest": "^4.0.2"
+  },
+  "scripts": {
+    "test": "mocha",
+    "start": "node Server.js",
+    "dev": "nodemon Server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
